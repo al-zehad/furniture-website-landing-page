@@ -1,0 +1,165 @@
+/* All common css starts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  ;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* All common css ends */
+
+/* Header Section Starts */
+.navbar-brand {
+  color: #054C73;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.navbar-nav {
+  gap: 50px;
+  text-align: right;
+}
+
+/* Header Section Ends */
+
+/* Hero Section Starts */
+#hero {
+  background: url("../images/heroImg.jpg");
+  padding: 155px 0;
+}
+
+.heroContent {
+  background: #DFE9F4;
+  padding-top: 37px;
+  padding-bottom: 41px;
+  padding-left: 39px;
+  border-radius: 10px;
+}
+
+.heroContent span {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.heroContent h1 {
+  max-width: 489px;
+  color: #054C73;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 65px;
+  padding: 20px 0;
+}
+
+.heroContent p {
+  max-width: 546px;
+  color: #333333;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 39px;
+  padding-bottom: 40px;
+}
+
+.heroContent a {
+  background: #054C73;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 25px 72px;
+  border-radius: 50px;
+}
+
+/* Hero Section Ends */
+
+/* Delivery Info Section Starts */
+#deliveryInfo {
+  background: #F2F5FF;
+  padding: 50px 0;
+}
+
+.deliveryItem {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+
+.deliveryItem i {
+  font-size: 30px;
+}
+
+.deliveryDetails h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.deliveryDetails p {
+  font-size: 16px;
+  color: #333333;
+  padding-top: 8px;
+}
+
+/* Delivery Info Section Ends */
+
+/* Inspiration Section Starts */
+#inspiration {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.sectionTitle {
+  color: #333333;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.sectionDesc {
+  color: #333333;
+  font-size: 20px;
+}
+#inspiration .sectionDesc {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+/* Inspiration Section Ends */
+
+/* Header Section Starts */
+/* Header Section Ends */
+
+/* Header Section Starts */
+/* Header Section Ends */
+
+/* Header Section Starts */
+/* Header Section Ends */
+
+/* Header Section Starts */
+/* Header Section Ends */
