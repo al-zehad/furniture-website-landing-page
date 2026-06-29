@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
-  ;
 }
 
 h1,
@@ -16,7 +15,7 @@ h6,
 p {
   margin: 0;
   padding: 0;
-  line-height: 0.8;
+  /* line-height: 0.8; */
 }
 
 ul,
@@ -27,12 +26,22 @@ ol {
 a {
   text-decoration: none;
 }
-
+.myBtn {
+  background: #054c73;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 50px;
+  transition: all 0.3s;
+}
+.myBtn:hover {
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.3);
+}
 /* All common css ends */
 
 /* Header Section Starts */
 .navbar-brand {
-  color: #054C73;
+  color: #054c73;
   font-size: 34px;
   font-weight: 700;
 }
@@ -41,6 +50,10 @@ a {
   color: #333333;
   font-size: 14px;
   font-weight: 600;
+  transition: all 0.3s;
+}
+.nav-link:hover {
+  color: #054c73;
 }
 
 .navbar-nav {
@@ -57,10 +70,11 @@ a {
 }
 
 .heroContent {
-  background: #DFE9F4;
+  background: #dfe9f4;
   padding-top: 37px;
-  padding-bottom: 41px;
+  padding-bottom: 60px;
   padding-left: 39px;
+  padding-right: 39px;
   border-radius: 10px;
 }
 
@@ -73,7 +87,7 @@ a {
 
 .heroContent h1 {
   max-width: 489px;
-  color: #054C73;
+  color: #054c73;
   font-size: 52px;
   font-weight: 700;
   line-height: 65px;
@@ -90,45 +104,40 @@ a {
 }
 
 .heroContent a {
-  background: #054C73;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 700;
   padding: 25px 72px;
-  border-radius: 50px;
 }
 
 /* Hero Section Ends */
 
-/* Delivery Info Section Starts */
-#deliveryInfo {
-  background: #F2F5FF;
+/* Services Section Starts */
+#services {
+  background: #f2f5ff;
   padding: 50px 0;
 }
 
-.deliveryItem {
+.serviceItem {
   display: flex;
   align-items: center;
   gap: 27px;
 }
 
-.deliveryItem i {
+.serviceItem i {
   font-size: 30px;
 }
 
-.deliveryDetails h3 {
+.serviceDetails h3 {
   font-size: 24px;
   font-weight: 600;
   color: #333333;
 }
 
-.deliveryDetails p {
+.serviceDetails p {
   font-size: 16px;
   color: #333333;
   padding-top: 8px;
 }
 
-/* Delivery Info Section Ends */
+/* Services Section Ends */
 
 /* Inspiration Section Starts */
 #inspiration {
@@ -148,18 +157,181 @@ a {
 }
 #inspiration .sectionDesc {
   padding-top: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 90px;
+}
+.inspirationImg {
+  transition: all 0.3s;
+}
+.inspirationImg:hover {
+  margin-top: -38px;
 }
 /* Inspiration Section Ends */
 
-/* Header Section Starts */
-/* Header Section Ends */
+/* Beautify Section Starts */
+#beautify {
+  padding: 60px 0;
+  background: #f2f5ff;
+}
+#beautify .myBtn {
+  padding: 24px 57px;
+}
+#beautify .sectionDesc {
+  color: #666666;
+  line-height: 39px;
+  max-width: 514px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.beautifyRight {
+  position: relative;
+}
+.beautifyRight img {
+  z-index: 2;
+}
+.greenCircle {
+  width: 370px;
+  height: 370px;
+  border-radius: 50%;
+  background: #09513b;
+  z-index: 1;
+  position: absolute;
+  right: -68px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* Beautify Section Ends */
 
-/* Header Section Starts */
-/* Header Section Ends */
+/* Range Section Starts */
+#range {
+  padding: 60px 0;
+  text-align: center;
+}
+#range .sectionDesc {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+#range h5 {
+  padding-top: 30px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333333;
+}
+hr {
+  border: 1px solid #d7d6d6;
+}
+/* Range Section Ends */
 
-/* Header Section Starts */
-/* Header Section Ends */
+/* Working Process Section Starts */
+#workingProcess {
+  padding-top: 60px;
+  padding-bottom: 197px;
+  text-align: center;
+}
+#workingProcess .sectionDesc {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.imageCard h4 {
+  padding-top: 80px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #333333;
+}
+.workingProcessImg {
+  position: relative;
+}
+.imageCard p {
+  color: #666666;
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 381px;
+  margin: 0 auto;
+}
+.imgCardNumber {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #fcfcfc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.imgCardNumber h6 {
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  font-weight: 700;
+  background: #111111;
+  border-radius: 50%;
+  padding: 20px;
+  padding-left: 24px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Working Process Section Ends */
 
-/* Header Section Starts */
-/* Header Section Ends */
+/* Subscription Section Starts */
+#subscription {
+  background: #F2F5FF;
+  padding: 60px 0;
+  text-align: center;
+}
+#subscription .sectionDesc {
+  padding-top: 10px;
+  padding-bottom: 50px;
+  max-width: 514px;
+  margin: 0 auto;
+}
+.input-group {
+  border: 1px solid #054C73;
+  border-radius: 3px;
+  max-width: 486px;
+  margin: 0 auto;
+}
+.input-group input {
+  padding: 25px;
+}
+.input-group input[placeholder] {
+  color: #011C42;
+  font-size: 16px;
+}
+.input-group button {
+  padding: 27px 45px;
+  background: #054C73;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border: 1px solid #054C73;
+}
+/* Subscription Section Ends */
+
+/* Footer Section Starts */
+#footer {
+  background: #03344F;
+  padding-top: 49px;
+  padding-bottom: 89px;
+  color: #fff;
+}
+.footerHeading {
+  font-size: 24px;
+  font-weight: 700;
+}
+#footer p {
+  max-width: 400px;
+  font-size: 16px;
+  line-height: 35px;
+  padding-top: 34px;
+  padding-bottom: 21px;
+}
+.footerImg {
+  padding-top: 23px;
+}
+/* Footer Section Ends */

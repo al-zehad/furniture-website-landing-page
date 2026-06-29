@@ -34,23 +34,25 @@
         <ul class="navbar-nav m-auto mb-2 mb-lg-0">
         </ul>
 
-        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Doctors</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Products</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Gallery</a>
-          </li>
-        </ul>
+        <div class="d-flex justify-content-end">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Doctors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </nav>
@@ -61,11 +63,14 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6"></div>
-        <div class="heroContent col-lg-6">
-          <span>New Arrival</span>
-          <h1>Discover Our New Collection</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
-          <a href="#">BUY Now</a>
+        <div class="d-flex justify-content-end">
+          <div class="heroContent col-lg-6 text-center text-lg-start">
+            <span>New Arrival</span>
+            <h1>Discover Our New Collection</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
+            </p>
+            <a class="myBtn" href="#">BUY Now</a>
+          </div>
         </div>
       </div>
     </div>
@@ -73,29 +78,36 @@
   <!-- Hero Section Ends -->
 
   <!--  Services Section Starts -->
-  <section id="deliveryInfo">
+  <section id="services">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-4 deliveryItem">
-          <i class="fa-regular fa-truck"></i>
-          <div class="deliveryDetails">
-            <h3>Free Delivery</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
+      <div class="row g-4">
+        <div class="col-lg-4 d-flex justify-content-center justify-content-lg-start">
+          <div class="serviceItem">
+            <i class="fa-regular fa-truck"></i>
+            <div class="serviceDetails">
+              <h3>Free service</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
           </div>
         </div>
 
-        <div class="col-lg-4 deliveryItem">
-          <i class="fa-solid fa-clock-rotate-left"></i>
-          <div class="deliveryDetails">
-            <h3>Support 24/7</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
+        <div class="col-lg-4 d-flex justify-content-center">
+          <div class="serviceItem">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+            <div class="serviceDetails">
+              <h3>Support 24/7</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4 deliveryItem">
-          <i class="fa-solid fa-shield"></i>
-          <div class="deliveryDetails">
-            <h3>100% Authentic</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
+
+        <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end">
+          <div class="serviceItem">
+            <i class="fa-solid fa-shield"></i>
+            <div class="serviceDetails">
+              <h3>100% Authentic</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -112,18 +124,184 @@
           <p class="sectionDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
       </div>
+
+      <div class="row g-4">
+        <div class="col-lg-4 justify-content-center">
+          <img class="inspirationImg" src="./images/inspirationImgOne.png" alt="inspirationImgOne.png">
+        </div>
+
+        <div class="col-lg-4 justify-content-center">
+          <img class="inspirationImg" src="./images/inspirationImgTwo.png" alt="inspirationImgTwo.png">
+        </div>
+
+        <div class="col-lg-4 justify-content-center">
+          <img class="inspirationImg" src="./images/inspirationImgThree.png" alt="inspirationImgThree.png">
+        </div>
+      </div>
     </div>
   </section>
   <!-- Inspiration Section Ends -->
 
-  <!-- Header Section Starts -->
-  <!-- Header Section Ends -->
+  <!-- Beautify Section Starts -->
+  <section id="beautify">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6 d-flex justify-content-center justify-content-lg-start text-center text-lg-start">
+          <div>
+            <h2 class="sectionTitle">Beautify Your Space</h2>
+            <p class="sectionDesc">Do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris.</p>
+            <a href="#" class="myBtn">Learn More</a>
+          </div>
+        </div>
 
-  <!-- Header Section Starts -->
-  <!-- Header Section Ends -->
+        <div class="col-lg-6 beautifyRight d-flex justify-content-center justify-content-lg-end">
+          <img class="img-fluid" src="./images/beautifyImg.png" alt="beautifyImg.png">
+          <div class="greenCircle"></div>
+        </div>
 
-  <!-- Header Section Starts -->
-  <!-- Header Section Ends -->
+      </div>
+    </div>
+  </section>
+  <!-- Beautify Section Ends -->
+
+  <!-- Range Section Starts -->
+  <section id="range">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="sectionTitle">Browse The Range</h2>
+          <p class="sectionDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+
+      <div class="row g-5">
+        <div class="col-lg-4 justify-content-center">
+          <div>
+            <img src="./images/rangeImgOne.png" alt="rangeImgOne.png">
+            <h5>Dining</h5>
+          </div>
+        </div>
+
+        <div class="col-lg-4 justify-content-center">
+          <div>
+            <img src="./images/rangeImgTwo.png" alt="rangeImgTwo.png">
+            <h5>Living</h5>
+          </div>
+        </div>
+
+        <div class="col-lg-4 justify-content-center">
+          <div>
+            <img src="./images/rangeImgThree.png" alt="rangeImgThree.png">
+            <h5>Bedroom</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Range Section Ends -->
+  <hr>
+
+  <!-- Working Process Section Starts -->
+  <section id="workingProcess">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="sectionTitle">How It Works</h2>
+          <p class="sectionDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+
+      <div class="row g-5">
+        <div class="col-lg-4 justify-content-center">
+          <div class="imageCard">
+            <div class="workingProcessImg">
+              <img src="./images/workingProcessImgOne.png" alt="workingProcessImgOne.png">
+              <div class="imgCardNumber">
+                <h6>1.</h6>
+              </div>
+            </div>
+
+            <h4>Purchase Securely</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 justify-content-center">
+          <div class="imageCard">
+            <div class="workingProcessImg">
+              <img src="./images/workingProcessImgTwo.png" alt="workingProcessImgTwo.png">
+              <div class="imgCardNumber">
+                <h6>2.</h6>
+              </div>
+            </div>
+
+            <h4>Ships From Warehouse</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 justify-content-center">
+          <div class="imageCard">
+            <div class="workingProcessImg">
+              <img src="./images/workingProcessImgThree.png" alt="workingProcessImgThree.png">
+              <div class="imgCardNumber">
+                <h6>3.</h6>
+              </div>
+            </div>
+
+            <h4>Style Your Room</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Working Process Section Ends -->
+
+  <!-- Subscription Section Starts -->
+  <section id="subscription">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="sectionTitle">Join Our Mailing List</h2>
+          <p class="sectionDesc">Sign up to receive inspiration, product updates, and special offers from our team.</p>
+
+          <div class="input-group">
+            <input type="email" class="form-control" placeholder="example@gmail.com" aria-label="example@gmail.com"
+              aria-describedby="button-addon2">
+            <button class="" type="button" id="button-addon2">Submit</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Subscription Section Ends -->
+
+  <!-- Footer Section Starts -->
+   <footer id="footer">
+    <div class="container">
+      <div class="row text-center text-lg-start">
+        <div class="col-lg-4">
+          <h3 class="footerHeading">Beauty Care</h3>
+          <p class="mx-auto mx-lg-0">Do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+          <h3 class="footerHeading">Follow Us</h3>
+        </div>
+
+        <div class="col-lg-8">
+          <h3 class="footerHeading mt-4 mt-lg-0">Instagram Shop</h3>
+          <div class="footerImg d-flex justify-content-center justify-content-lg-start gap-4 flex-wrap">
+            <img src="./images/footerImgOne.jpg" alt="footerImgOne.jpg">
+            <img src="./images/footerImgTwo.jpg" alt="footerImgTwo.jpg">
+            <img src="./images/footerImgThree.jpg" alt="footerImgThree.jpg">
+            <img src="./images/footerImgFour.jpg" alt="footerImgFour.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+   </footer>
+  <!-- Footer Section Ends -->
 
 
   <!-- JS files Start -->
